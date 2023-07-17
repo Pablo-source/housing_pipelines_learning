@@ -2,6 +2,7 @@
 # Followed (save_data.R) script from Bruno Rodrigues to get the data for this analysis,
 
 ## 1. Download Luxembougrh housing data
+# Load required libraries 
 library(dplyr)
 library(purrr)
 library(readxl)
