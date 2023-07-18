@@ -1,5 +1,5 @@
 # housing_pipelines_learning 
-Practising content from B Rodrigues book Building reproducible analytical pipelines with r
+Practising content from Bruno Rodrigues book "Building reproducible analytical pipelines with R"
 
 Learning Git commands: 
 
