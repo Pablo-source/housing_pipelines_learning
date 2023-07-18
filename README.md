@@ -25,3 +25,7 @@ Added new files to the project commit them to start tracking its changes on my l
 Initial set of changes have been pushed to GitHub from my local repo
 
 ![git_push_example](https://github.com/Pablo-source/housing_pipelines_learning/assets/76554081/f4162b81-0c11-491b-95fc-0b0d9b5cbeae)
+
+Current set of files on my local git repo pushed to GitHub today
+
+![All_files_from_git_to_github_updated](https://github.com/Pablo-source/housing_pipelines_learning/assets/76554081/d3593537-b438-4e6a-b1e1-bc0b10c7801e)
