@@ -16,7 +16,7 @@ Adding all changes to the above two R scripts from the terminal, learning all re
 
 ![git_commit_from_git_to_github](https://github.com/Pablo-source/housing_pipelines_learning/assets/76554081/5e3d2527-6271-449d-8ce9-ae1421d06b42)
 
-Added new files to the project commit them to start tracking and started to introduce changes on the tracked files on my local git repo. Uploading them to GitHub after several commits.
+Added new files to the project commit them to start tracking its changes on my local git repo. Uploading them to GitHub after several commits.
 
 ![git_commit_add_new_file](https://github.com/Pablo-source/housing_pipelines_learning/assets/76554081/6cb0a93e-1721-4fb6-bbe3-96d806ba6889)
 
