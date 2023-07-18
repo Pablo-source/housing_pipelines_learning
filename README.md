@@ -4,9 +4,10 @@ Practising content from Bruno Rodrigues book "Building reproducible analytical p
 Learning Git commands: 
 
 Started to use Git from terminal to track all changes to several R scripts in a project
-- git add .
 - git status
+- git add .
 - git commmit -m
+- git pull
 - git push -u origin master
 
 Then using the terminal also from my Linux machine, push a local Git repository to a brand new GitHub project or repository. The following two scripts tracked in Git will be uploaded to this new GitHub repository:
