@@ -24,6 +24,23 @@ AE_data <- function() {
 # Download A&E data function (no arguments)
 AE_data()
 
+# 2. Update file when new data is available  
+# We use again the previous function inside a new function that checks metadata for file change time stamp
+  Dataupdate <- function(){
+    T_refresh = 0.5  # hours
+    if(!dir_exists("data")){
+      dir.create("data")
+      AE_data()
+    }
+    else if((!file.exists("data/AE_England_data.xls"))||as.double( Sys.time() - file_info("data/AE_England_data.xls")$change_time, units = "hours")>T_refresh ){
+      # If the latest refresh exceeds 30 minutes, then you download it again
+      AE_data()
+    }
+  }
+
+# Call this function for testing
+Dataupdate()
+
 # Extract AE data from Excel file
 
 if(!dir.exists("data")){dir.create("data")}
