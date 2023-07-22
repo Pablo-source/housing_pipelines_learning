@@ -1,1 +1,6 @@
+When running init function from {renv} we obtain among others two files:
 
+- .Rprofile
+- renv.lock
+
+This folder contains the renv.lock file content as a json file with all my package and dependencies used on this specific project
